@@ -53,6 +53,9 @@ Interactive Dashboard
 Player Performance Analysis
       ↓
 Best Playing 11
+---
+
+
 🐍 Data Preparation Using Python
 
 The raw cricket data was provided in JSON format.
