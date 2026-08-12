@@ -31,32 +31,26 @@ The project analyzes batting, bowling, match results, and player information to 
 
 ---
 
+
 ## 🔄 Project Workflow
 
-```text
-Raw JSON Files
-      ↓
-Python & Pandas
-      ↓
-Data Cleaning & Preparation
-      ↓
-JSON → Structured CSV Files
-      ↓
-Power BI
-      ↓
-Data Transformation & Data Modeling
-      ↓
-DAX Measures
-      ↓
-Interactive Dashboard
-      ↓
-Player Performance Analysis
-      ↓
-Best Playing 11
+| Step | Process |
+|---|---|
+| 1 | Raw JSON Files |
+| 2 | Python & Pandas |
+| 3 | Data Cleaning & Preparation |
+| 4 | JSON → Structured CSV Files |
+| 5 | Power BI |
+| 6 | Data Transformation & Data Modeling |
+| 7 | DAX Measures |
+| 8 | Interactive Dashboard |
+| 9 | Player Performance Analysis |
+| 10 | Best Playing 11 |
+
 ---
 
 
-🐍 Data Preparation Using Python
+## 🐍 Data Preparation Using Python
 
 The raw cricket data was provided in JSON format.
 
@@ -77,7 +71,9 @@ matches_summary.csv
 Batting.csv
 Bowling.csv
 player_info.csv
-📊 Power BI Transformation
+
+---
+## 📊 Power BI Transformation
 
 The cleaned CSV files were imported into Power BI.
 
@@ -89,7 +85,9 @@ Creating relationships between datasets
 Preparing player performance data
 Creating parameters for player analysis
 Building calculated metrics
-🧮 DAX Measures
+
+---
+## 🧮 DAX Measures
 
 DAX measures were created to calculate and compare important player performance metrics.
 
@@ -102,7 +100,9 @@ Strike Rate
 Wickets
 Economy
 Other performance metrics
-📈 Power BI Dashboard
+
+---
+## 📈 Power BI Dashboard
 
 An interactive Power BI dashboard was created to compare players across multiple performance dimensions.
 
@@ -116,31 +116,19 @@ Dynamic player selection
 Comparative visualizations
 Performance trends
 Data-driven team selection
-🏆 Best Playing 11
+
+---
+## 🏆 Best Playing 11
 
 Based on the analysis, the final Best Playing 11 was selected by considering different player roles and performance metrics.
 
-Openers
-Jos Buttler (WK)
-Rilee Rossouw
-Middle Order
-Alex Hales
-Virat Kohli
-Suryakumar Yadav
-Finishers
-Glenn Phillips
-Marcus Stoinis
-All-Rounders
-Hardik Pandya
-Rashid Khan
-Bowlers
-Sam Curran
-Anrich Nortje
-💡 Key Outcome
+---
+## 💡 Key Outcome
 
 The project demonstrates how raw cricket data can be transformed into meaningful performance insights and used to make data-driven team selection decisions instead of relying purely on subjective assumptions.
 
-📌 Key Skills Demonstrated
+---
+## 📌 Key Skills Demonstrated
 Data Cleaning
 Data Transformation
 Python
